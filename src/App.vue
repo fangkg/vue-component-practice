@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <Index/>
+    <!-- <Index/> -->
+    <Parent/>
   </div>
 </template>
 
 <script>
-import Index from './components/communication/index.vue'
+// import Index from './components/communication/index.vue'
+import Parent from '@/components/slot/parent.vue'
 
 export default {
   name: 'App',
   components: {
-    Index
+    // Index
+    Parent
   }
 }
 </script>
